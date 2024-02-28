@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: serif, sans-serif, monospace;
   font-size: 18px;
   font-weight: 400;
   min-inline-size: 375px;
@@ -47,22 +47,11 @@ picture {
 button,
 a {
   color: currentColor;
-  font-family: inherit;
+  font-family: inherit, serif, sans-serif, monospace;
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
-}
-
-.decorated-zone::before {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  border-left: 1px solid var(--corners-color);
-  border-bottom: 1px solid var(--corners-color);
-  left: 20px;
-  bottom: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
@@ -70,17 +59,6 @@ a {
     left: 10px;
     bottom: 17px;
   }
-}
-
-.decorated-zone::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  border-right: 1px solid var(--corners-color);
-  border-top: 1px solid var(--corners-color);
-  right: 20px;
-  top: 20px;
 }
 
 @media (width < 768px) and (width >= 375px) {
