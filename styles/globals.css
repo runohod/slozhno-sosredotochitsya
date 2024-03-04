@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: serif, sans-serif, monospace;
+  font-family: "IBM Plex mono", monospace;
   font-size: 18px;
   font-weight: 400;
   min-inline-size: 375px;
