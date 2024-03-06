@@ -3,11 +3,13 @@
 
   background: var(--background-image) no-repeat top center,
     var(--background-color);
-  background-size: auto 768px;
+  background-size: cover;
   background-attachment: fixed;
   color: var(--main-text-color);
   transition-duration: var(--transition-duration);
 }
+
+
 
 /* Header */
 
