@@ -1,37 +1,29 @@
 .page.theme_light {
-  --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --title-shadow: #ff0070;
-  --title-decor: #ff8dcb;
-  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --article-title-color: var(--main-text-color);
-  --section-title-color: var(--main-text-color);
-  --border-color: var(--title-shadow);
-  --corners-color: var(--main-text-color);
-  --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
-}
+  --text-color: var(--color-black-2, #353430);
+  --accent-color: var(--color-pink-4, #ff8dcb);
+  --brand-color: var(--color-pink-3, #ffc2e6);
+  --highlight-color: var(--color-black-2, #353430);
+  --secondary-color: var(--color-black-2, #353430);
+  --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
 
-.page.theme_light .header__rec {
-  display: none;
+  --page-background-color: var(--color-pink-1, #fff1f7);
+  --page-background-image: url("../images/cover-image-light.png");
+
+  --rec-decor-visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-text-color: #353430;
-    --title-color: #ffc2e6;
-    --title-shadow: #ff0070;
-    --title-decor: #ff8dcb;
-    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-    --background-color: #fff1f7;
-    --background-image: url(../images/cover-image-light.png);
-    --article-title-color: var(--main-text-color);
-    --section-title-color: var(--main-text-color);
-    --border-color: var(--title-shadow);
-    --corners-color: var(--main-text-color);
-    --link-shadow: var(--title-color);
-    --rec-color: var(--background-color);
+    --text-color: var(--color-black-2, #353430);
+    --accent-color: var(--color-pink-4, #ff8dcb);
+    --brand-color: var(--color-pink-3, #ffc2e6);
+    --highlight-color: var(--color-black-2, #353430);
+    --secondary-color: var(--color-black-2, #353430);
+    --secondary-color-o-40: var(--color-black-2-o-40, #35343040);
+
+    --page-background-color: var(--color-pink-1, #fff1f7);
+    --page-background-image: url("../images/cover-image-light.png");
+
+    --rec-decor-visibility: hidden;
   }
 }
