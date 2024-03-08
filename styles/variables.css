@@ -6,7 +6,7 @@
 
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
-  --color-purple-2-o-40: #ff007066;
+  --color-purple-2-o-40: #ff007028;
 
   --color-black-1: #000028;
   --color-black-2: #353430;
@@ -15,7 +15,7 @@
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
   --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007066);
+  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007028);
   --accent-color: var(--color-purple-2, #ff0070);
   --highlight-color: var(--color-black-1, #000028);
 
