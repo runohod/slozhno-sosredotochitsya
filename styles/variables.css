@@ -10,7 +10,7 @@
 
   --color-black-1: #000028;
   --color-black-2: #353430;
-  --color-black-2-o-40: #35343040;
+  --color-black-2-o-40: rgb(53,52,48,0.4);
 
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
